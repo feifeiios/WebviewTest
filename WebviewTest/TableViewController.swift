@@ -13,8 +13,10 @@ class TableViewController: UITableViewController {
     var dataArray : [TableViewModel] {
         let m1 = TableViewModel.init(dict: ["title":"淘宝","urlString":"https://www.taobao.com/"])
         let m2 = TableViewModel.init(dict: ["title":"百度","urlString":"https://www.baidu.com/index.php?tn=monline_3_dg"])
+        let m3 = TableViewModel.init(dict: ["title":" 苹果","urlString":"https://www.apple.com"])
+        //"https://www.apple.com"
         
-        return [m1,m2]
+        return [m1,m2,m3]
     }
     
     override func viewDidLoad() {
@@ -51,14 +53,36 @@ class TableViewController: UITableViewController {
     }
     override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
         let model = dataArray[indexPath.row]
-        let storyboard = UIStoryboard.init(name: "Main", bundle: NSBundle.mainBundle())
-        let vc = storyboard.instantiateViewControllerWithIdentifier("ViewControllerID") as! ViewController
 
-        vc.urlstring = model.urlString
-        self.navigationController?.pushViewController(vc, animated: false)
         
+        switch indexPath.row {
+        case 0:
+            let storyboard = UIStoryboard.init(name: "Main", bundle: NSBundle.mainBundle())
+            let vc = storyboard.instantiateViewControllerWithIdentifier("ViewControllerID") as! ViewController
+            
+            vc.urlstring = model.urlString
+            self.navigationController?.pushViewController(vc, animated: false)
+
+            break
+        case 1:
+//            let vc = WKWebViewController()
+//            vc.urlString = model.urlString
+//            self.navigationController?.pushViewController(vc, animated: false)
+//            
+            
+            break
+        case 2 :
+            let vc = WKViewController()
+            vc.urlString = model.urlString
+            self.navigationController?.pushViewController(vc, animated: false)
+            
+            
+            break
+        default:
+            break
+        }
         
-        
+
     }
     
 

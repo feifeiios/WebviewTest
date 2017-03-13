@@ -11,6 +11,8 @@
 		BE1A3F641E771BF3008961EF /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1A3F631E771BF3008961EF /* TableViewCell.swift */; };
 		BE1A3F661E771C07008961EF /* TableViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1A3F651E771C07008961EF /* TableViewModel.swift */; };
 		BE1A3F681E7726C0008961EF /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1A3F671E7726C0008961EF /* File.swift */; };
+		BE1A3F6A1E7726C0008961EF /* WKWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1A3F691E7726C0008961EF /* WKWebViewController.swift */; };
+		BE1A3F6C1E7726C0008961EF /* WKViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1A3F6B1E7726C0008961EF /* WKViewController.swift */; };
 		BE89D5291E7719D600F04D3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE89D5281E7719D600F04D3A /* AppDelegate.swift */; };
 		BE89D52B1E7719D600F04D3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE89D52A1E7719D600F04D3A /* ViewController.swift */; };
 		BE89D52E1E7719D600F04D3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE89D52C1E7719D600F04D3A /* Main.storyboard */; };
@@ -23,6 +25,8 @@
 		BE1A3F631E771BF3008961EF /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		BE1A3F651E771C07008961EF /* TableViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewModel.swift; sourceTree = "<group>"; };
 		BE1A3F671E7726C0008961EF /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		BE1A3F691E7726C0008961EF /* WKWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKWebViewController.swift; sourceTree = "<group>"; };
+		BE1A3F6B1E7726C0008961EF /* WKViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WKViewController.swift; sourceTree = "<group>"; };
 		BE89D5251E7719D600F04D3A /* WebviewTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebviewTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE89D5281E7719D600F04D3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE89D52A1E7719D600F04D3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +68,8 @@
 			children = (
 				BE89D5281E7719D600F04D3A /* AppDelegate.swift */,
 				BE89D52A1E7719D600F04D3A /* ViewController.swift */,
+				BE1A3F691E7726C0008961EF /* WKWebViewController.swift */,
+				BE1A3F6B1E7726C0008961EF /* WKViewController.swift */,
 				BE1A3F611E771BD2008961EF /* TableViewController.swift */,
 				BE1A3F631E771BF3008961EF /* TableViewCell.swift */,
 				BE1A3F651E771C07008961EF /* TableViewModel.swift */,
@@ -149,6 +155,8 @@
 			files = (
 				BE89D52B1E7719D600F04D3A /* ViewController.swift in Sources */,
 				BE1A3F681E7726C0008961EF /* File.swift in Sources */,
+				BE1A3F6C1E7726C0008961EF /* WKViewController.swift in Sources */,
+				BE1A3F6A1E7726C0008961EF /* WKWebViewController.swift in Sources */,
 				BE1A3F661E771C07008961EF /* TableViewModel.swift in Sources */,
 				BE1A3F641E771BF3008961EF /* TableViewCell.swift in Sources */,
 				BE1A3F621E771BD2008961EF /* TableViewController.swift in Sources */,
