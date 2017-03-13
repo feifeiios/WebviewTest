@@ -65,10 +65,10 @@ class TableViewController: UITableViewController {
 
             break
         case 1:
-//            let vc = WKWebViewController()
-//            vc.urlString = model.urlString
-//            self.navigationController?.pushViewController(vc, animated: false)
-//            
+            let vc = WKWebViewController()
+            vc.urlString = model.urlString
+            self.navigationController?.pushViewController(vc, animated: false)
+            
             
             break
         case 2 :
